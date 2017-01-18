@@ -1,0 +1,31 @@
+{
+  "name": "docutil",
+  "version": "1.0.2",
+  "description": "docker util, easy to build lanuch.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": { 
+    "type" : "git", 
+    "url" : "https://github.com/boyd4y/docutil.git"
+  },
+  "keywords": [
+    "docker",
+    "util",
+    "build",
+    "launch"
+  ],
+  "bin": {
+    "docutil": "run.js"
+  },
+  "author": "boyd4y@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "shelljs": "^0.7.6",
+    "yargs": "^6.0.0"
+  },
+  "devDependencies": {
+    "debug": "^2.6.0"
+  }
+}
